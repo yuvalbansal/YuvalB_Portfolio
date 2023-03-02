@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(129, 180, 235);
+    border-right: 2px solid black;
+    height: 1310px;
+    font-family: 'Tilt Prism', cursive;
+    transition: transform 0.4s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+}
+
+.main {
+    width: 100vw;
+    background-image: url('background.jpg');
+    background-size: 100% 100%;
+}
+
+.container {
+    font-weight: bold;
+    display: flex;
+}
+
+.infoContainer {
+    height: 85vh;
+    width: 70vw;
+    margin: 0px 50px 50px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic {
+    margin-right: 0px;
+}
+
+.devPic img {
+    margin-top: 10vh;
+    margin-left: 1vw;
+    height: 50vh;
+    border-radius: 10000px;
+}
+
+.hello {
+    font-size: 40px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.about {
+    font-size: 25px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.moreAbout {
+    margin: 20px 0px 0px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.buttons button {
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(83, 172, 255);
+    margin: 20px 40px;
+    cursor: pointer;
+}
+
+.buttons button a {
+    text-decoration: none;
+}
+
+.buttons button:hover {
+    color: rgb(83, 172, 255);
+    background-color: white;
+}
+
+.devInfo {
+    display: flex;
+    padding-top: 10%;
+    padding-left: 1%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact {
+    background-color: white;
+    height: 60vh;
+    width: 70vw;
+    margin: 50px 50px 20px 150px;
+    display: flex;
+    border-radius: 100px;
+    border: 5px double black;
+}
+
+.contactInfo {
+    padding: 3vw 0vw 3vw 10vw;
+}
+
+.candid {
+    margin-right: 0px;
+}
+
+.candid img {
+    height: 60vh;
+    border-right: 10px solid black;
+    border-radius: 100px;
+}
+
+.contactMe {
+    font-size: 60px;
+}
+
+.contactButtons {
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: 'Phudu', cursive;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 20px 20px 0px 0px;
+    border-radius: 10000px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    width: 50px;
+    height: 50px;
+    margin: 20px 20px 0px 0px;
+    border-radius: 10000px;
+    border-color: black;
+}
+
+.btn img {
+    height: 50px;
+    border-radius: 100px;
+}
+
+.lnk {
+    margin: 0px 0px 0px 0px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 170px;
+}
